@@ -422,4 +422,4 @@ $video = $rublixDownloader->fetchResource($YouTubePageUrl);
 print_r($video->toArray());
 ```
 
-[iwannacode.net](https://iwannacode.net)
+[loli.loveslife.biz](https://api.loli.loveslife.biz)
