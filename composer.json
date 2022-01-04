@@ -1,0 +1,45 @@
+{
+    "name": "lolikillers/youtube-downloader",
+    "type": "library",
+    "description": "Extract & download video, audio, subtitles from YouTube",
+    "keywords": ["downloader","video downloader","music downloader","youtube downloader","video to text","youtube to text"],
+    "homepage": "https://api.loli.loveslife.biz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loli Killers",
+            "email": "lolikillers157@gmail.com",
+            "homepage": "https://api.loli.loveslife.biz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "any-downloader/download-manager": "*",
+        "symfony/http-client": ">=5.3.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "LoliKillers\\YouTubeDownloader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LoliKillers\\YouTubeDownloader\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
